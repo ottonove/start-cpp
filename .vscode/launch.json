@@ -15,29 +15,6 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
-        },
-        {
-            "name": "(lldb) 接続",
-            "type": "cppdbg",
-            "request": "attach",
-            "program": "${workspaceFolder}/a.out",
-            "processId": "${command:pickProcess}",
-            "MIMode": "lldb"
-        },
-        /*
-        {
-            "name": "g++-9 - アクティブ ファイルのビルドとデバッグ",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "C/C++: g++-9 build active file"
         }
-        */
     ]
 }
