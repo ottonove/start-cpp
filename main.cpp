@@ -1,18 +1,20 @@
 #include <iostream>
-#include <filesystem>
+//#include <filesystem>
 #include <vector>
 
-namespace fs = std::filesystem;
+//namespace fs = std::filesystem;
 using namespace std;
 
 int main(int, char**) {
+    /*
     fs::path txtPath("main.cpp");
     cout << fs::exists(txtPath) << endl;
     cout << fs::absolute(txtPath) << endl;
+    */
 
-    std::vector<int> v = {1, 2, 3, 4, 5};
+    //std::vector<int> v = {1, 2, 3, 4, 5};
 
-    std::cout << "Hello, cpp!\n";
+    std::cout << "Hello, g++!\n";
     int i = 0;
     while(i < 10){
         std::cout << i++;
