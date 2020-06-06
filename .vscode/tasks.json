@@ -6,6 +6,7 @@
 			"label": "C/C++: gcc-9 build active file",
 			"command": "/usr/local/bin/g++-9",
 			"args": [
+				"-std=gnu++17",
 				//"-g",
 				"-I",
 				"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/",
