@@ -3,7 +3,7 @@
 ## clone repository
 
 ```bash
-https://github.com/ottonove/start-cpp.git
+git clone https://github.com/ottonove/start-cpp.git
 code start-cpp # VSCodeでプロジェクトを開く
 ```
 
@@ -15,10 +15,10 @@ code start-cpp # VSCodeでプロジェクトを開く
 1. ビルドが成功すると、実行ファイル：`a.out`が`start-cpp`直下に生成される。
 1. ターミナルから`a.out`を実行する。
 
-### 実行
+### Run
 
 ```bash
 # ターミナル
 start-cpp ottonove$ ./a.out
-hello world!
+hello world! # この様に表示されれば成功！
 ```
