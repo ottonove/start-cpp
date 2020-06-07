@@ -15,10 +15,16 @@ code start-cpp # VSCodeでプロジェクトを開く
 1. ビルドが成功すると、実行ファイル：`a.out`が`start-cpp`直下に生成される。
 1. ターミナルから`a.out`を実行する。
 
-### Run
+## Run
 
 ```bash
 # ターミナル
 start-cpp ottonove$ ./a.out
 hello world! # この様に表示されれば成功！
 ```
+
+## Debug
+
+ソースコードにブレイクポイントを設置して`F5`キーを押す。
+
+![](2020-06-07-18-55-02.png)
