@@ -12,13 +12,12 @@ int main(int, char**) {
     cout << fs::absolute(txtPath) << endl;
     */
 
-    //std::vector<int> v = {1, 2, 3, 4, 5};
+    std::vector<char> v = {'h','e','l','l','o'};
 
-    std::cout << "Hello, g++!\n";
-    int i = 0;
-    while(i < 10){
-        std::cout << i++;
+    for(int i=0; i<v.size(); i++){
+        std::cout << v[i];
     }
+    cout << " world!" << endl;
 
     return 0;
 }
