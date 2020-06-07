@@ -3,14 +3,10 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "C/C++: gcc build active file",
-			//"command": "/usr/local/bin/g++-9",
+			"label": "C/C++: clang build active file",
 			"command": "/usr/bin/g++",
 			"args": [
-				//"-std=gnu++17",
 				"-g", // debug情報付加
-				//"-I",
-				//"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/",
 				"--std=c++11",
 				"${file}",
 				"-o",
